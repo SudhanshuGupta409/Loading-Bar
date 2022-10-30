@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background: linear-gradient(black , rgb(128, 3, 3));
+    color: wheat;
+    font-family: cursive;
+
+}
+.container{
+    text-align: center;
+    width: 300px;
+    position: relative;
+
+}
+.counter{
+    font-size: 40px;
+
+}
+.loadingBarBack{
+    position: absolute;
+    height: 8px;
+    background-color: rgb(130, 131, 133);
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+}
+.loadingBarFront{
+    position: absolute;
+    height: 8px;
+    background-color: rgb(21, 107, 10);
+    width: 10%;
+    border-radius: 5px;
+    border: none;
+}
